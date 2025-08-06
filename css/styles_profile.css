@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url("../img/fondo_pantalla.jpeg");
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+}
+
+.profile, .experience{
+	background-color: rgba(125, 130, 165, 0.82);
+	display: flex;
+	width: 90%;
+	margin: auto;
+	border-radius: 20px;
+	border-top-left-radius: 150px;
+	border-bottom-left-radius: 150px;
+	align-items: center;
+	padding: 10px;
+	box-shadow: rgba(255, 255, 255, 0.3) 5px 5px 25px;
+}
+
+h3 + p{
+	font-size: 20px;
+}
+
+h3{
+	margin: 10px 0;
+	font-size: 22px;
+}
+
+.profile img{
+	width: 15%;
+	border-radius: 50%;
+}
+
+.profile div{
+	margin-left: 40px;
+}
+
+h1{
+	margin: 20px 0;
+	text-align: center;
+	color: black;
+  	text-shadow: -2px -2px 0 white,
+               2px -2px 0 white,
+              -2px  2px 0 white,
+               2px  2px 0 white;
+}
+
+h2{
+	font-size: 26px;
+  	text-shadow: -1px -1px 0 black,
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+nav ul{
+	background-color: rgba(30,30,30,0.5);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul a{
+	text-decoration: none;
+	text-shadow: none;
+	margin: 0px 20px;
+	color: white;
+}
+
+.autis_logo{
+	width: 70%;
+	margin: auto;
+}
+
+.section_icon{
+	width: 50px;
+}
+
+.section_title{
+	margin-bottom: 10px;
+	margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .experience div:first-child{
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+	gap:5px;
+	text-align: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+
+.experience li{
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.experience ul{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
