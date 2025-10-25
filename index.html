@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portafolio de Ivan Villanueva</title>
-	<link rel="stylesheet" type="text/css" href="css/styles_profile.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
 </head>
 <body>
 	<header>
@@ -22,7 +25,6 @@
 			</ul>
 		</nav>
 	</header>
-	<div class="main-frame">
 	<main>
 		<h1>Portafolio personal</h1>
 		<section>
@@ -49,7 +51,7 @@
 				</div>
 			</div>
 		</section>
-		
+
 		<div class="section_title">
 			<img src="img/experience_icon.svg" alt="" class="section_icon">
 			<h2>Experiencia</h2>
@@ -129,131 +131,159 @@
 			<img src="img/assignment_icon.svg" alt="" class="section_icon">
 			<h2>Proyectos</h2>
 		</div>
+		<div class="projects-container">
+			<div class="projects">
+				<h3>petsitter</h3>
+				<img src="img/landing_page_petsitter.PNG" alt="">
+				<p>
+					Proyecto de robótica inteligente desarrollado en Python, utilizando el framework ROS2 para la gestión de nodos,
+					sensores y actuadores, e integrado con modelos de machine learning implementados mediante las librerías Keras y
+					TensorFlow. 
+				</p>
+				<p>
+					El sistema permite la identificación automática de mascotas (perros y gatos) a través de técnicas 
+					de clasificación supervisada, combinando procesamiento en tiempo real con visión por computadora. Esta solución
+					está orientada a entornos domésticos y de asistencia, y demuestra la viabilidad de integrar aprendizaje 
+					profundo en sistemas robóticos distribuidos.
+				</p>
+				<div class="technology">
+					<h5 >
+						Tecnologias
+					</h5>
+					<ul>
+						<li class="red">Python</li>
+						<li class="blue">ROS2</li>
+						<li class="green">TensorFlow</li>
+						<li class="green">Keras</li>
+						<li class="green">OpenCV</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="projects">
+				<h3>Nevera inteligente</h3>
+				<img src="img/nevera inteligente.png" alt="">
+				<p>
+					Proyecto multidisciplinar centrado en el desarrollo de aplicaciones móviles con Java, orientadas a la 
+					interacción con sistemas físicos, junto con la implementación de software embebido en microcontroladores 
+					mediante C++.
+				</p>
+				<p>
+					La propuesta integra programación de alto nivel para interfaces móviles con programación de 
+					bajo nivel para control de hardware, permitiendo la comunicación eficiente entre dispositivos inteligentes 
+					y sistemas embebidos. Se abordan aspectos como la gestión de sensores, la transmisión de datos y la 
+					sincronización entre plataformas, con aplicaciones potenciales en domótica, automatización y sistemas IoT.
+				</p>
+				<div class="technology">
+					<h5>
+						Tecnologias
+					</h5>
+					<ul>
+						<li class="red">C++</li>
+						<li class="red">Java</li>
+						<li class="blue">Android</li>
+						<li class="blue">Arduino</li>
+						<li class="green">Firebase</li>
+						<li class="green">MQTT</li>
+					</ul>
+				</div>
+			</div>
+			<div class="projects">
+				<h3>Planetarium</h3>
+				<iframe
+					src="https://www.youtube-nocookie.com/embed/20aK0ELt-Vw"
+					title="YouTube video player"
+					referrerpolicy="origin"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+				</iframe>
 
-		<div class="projects">
-			<h3>petsitter</h3>
-			<img src="img/landing_page_petsitter.PNG" alt="" class="img_nevera">
-			<p>
-				Proyecto de robótica inteligente desarrollado en Python, utilizando el framework ROS2 para la gestión de nodos,
-				sensores y actuadores, e integrado con modelos de machine learning implementados mediante las librerías Keras y
-				TensorFlow. 
-			</p>
-			<p>
-				El sistema permite la identificación automática de mascotas (perros y gatos) a través de técnicas 
-				de clasificación supervisada, combinando procesamiento en tiempo real con visión por computadora. Esta solución
-				está orientada a entornos domésticos y de asistencia, y demuestra la viabilidad de integrar aprendizaje 
-				profundo en sistemas robóticos distribuidos.
-			</p>
-			<h5>
-				Tecnologias
-			</h5>
-			<ul>
-				<li class="red">Python</li>
-				<li class="blue">ROS2</li>
-				<li class="green">TensorFlow</li>
-				<li class="green">Keras</li>
-				<li class="green">OpenCV</li>
-			</ul>
-			
-			
-		</div>
-		<div class="projects">
-			<h3>Nevera inteligente</h3>
-			<img src="img/nevera inteligente.png" alt="" class="img_nevera">
-			<p>
-				Proyecto multidisciplinar centrado en el desarrollo de aplicaciones móviles con Java, orientadas a la 
-				interacción con sistemas físicos, junto con la implementación de software embebido en microcontroladores 
-				mediante C++.
-			</p>
-			<p>
-				La propuesta integra programación de alto nivel para interfaces móviles con programación de 
-				bajo nivel para control de hardware, permitiendo la comunicación eficiente entre dispositivos inteligentes 
-				y sistemas embebidos. Se abordan aspectos como la gestión de sensores, la transmisión de datos y la 
-				sincronización entre plataformas, con aplicaciones potenciales en domótica, automatización y sistemas IoT.
-			</p>
-			<h5>
-				Tecnologias
-			</h5>
-			<ul>
-				<li class="red">C++</li>
-				<li class="red">Java</li>
-				<li class="blue">Android</li>
-				<li class="blue">Arduino</li>
-				<li class="green">Firebase</li>
-				<li class="green">MQTT</li>
-			</ul>
-		</div>
-		<div class="projects">
-			<h3>Planetarium</h3>
-			<!--
-			<img src="img/planetarium.PNG" alt="" class="img_nevera">
-			-->
-			<iframe width="560" height="315"
-				src="https://www.youtube.com/embed/20aK0ELt-Vw"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen>
-			</iframe>
+				<p>
+					Proyecto de desarrollo de aplicaciones inmersivas en Unity, centrado en la implementación de experiencias de
+					Realidad Aumentada (RA) y Realidad Virtual (RV) mediante programación en C#.
+				</p>
+				<p>
+					Se abordan aspectos como el reconocimiento espacial, la integración de interfaces hápticas y la 
+					sincronización de sensores, con aplicaciones orientadas a la educación, la simulación técnica y la 
+					visualización avanzada de datos.
+				</p>
+				<div class="technology">
+					<h5>
+						Tecnologias
+					</h5>
+					<ul>
+						<li class="red">C#</li>
+						<li class="blue">RV/RA</li>
+						<li class="blue">Unity</li>
+						<li class="green">ARCore</li>
+						<li class="green">Vuforia</li>
+						<li class="green">SteamVR</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="projects">
+				<h3>Pumpkin</h3>
+				<div id="miCarrusel" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/Pumpkin1.PNG" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/Pumpkin2.PNG" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/Pumpkin3.PNG" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/Pumpkin4.PNG" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="img/Pumpkin5.PNG" class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</button>
+				</div>
 
-			<p>
-				Proyecto de desarrollo de aplicaciones inmersivas en Unity, centrado en la implementación de experiencias de
-				Realidad Aumentada (RA) y Realidad Virtual (RV) mediante programación en C#.
-			</p>
-			<p>
-				Se abordan aspectos como el reconocimiento espacial, la integración de interfaces hápticas y la 
-				sincronización de sensores, con aplicaciones orientadas a la educación, la simulación técnica y la 
-				visualización avanzada de datos.
-			</p>
-			<h5>
-				Tecnologias
-			</h5>
-			<ul>
-				<li class="red">C#</li>
-				<li class="blue">RV/RA</li>
-				<li class="blue">Unity</li>
-				<li class="green">ARCore</li>
-				<li class="green">Vuforia</li>
-				<li class="green">SteamVR</li>
-			</ul>
+				<p>
+					Proyecto de diseño e implementación de una página web dinámica, desarrollada mediante un stack 
+					tecnológico compuesto por HTML, CSS, JavaScript y PHP, con el objetivo de ofrecer una experiencia 
+					interactiva, estructurada y funcional al usuario final.
+				</p>
+				<div class="technology">
+					<h5>
+						Tecnologias
+					</h5>
+					<ul>
+						<li class="red">HTML</li>
+						<li class="red">CSS</li>
+						<li class="red">JavaScript</li>
+						<li class="red">PHP</li>
+						<li class="red">SQL</li>
+					</ul>
+				</div>
+				
+			</div>
 		</div>
-
 	</main>
-	<aside>
-		<h3>Información adicional</h3>
-		<h4>Habilidades</h4>
-		<ul>
-			<li>Trabajo en equipo en entornos multiculturales</li>
-			<li>Resolución de problemas técnicos y funcionales</li>
-			<li>Comunicación efectiva con clientes y equipos</li>
-			<li>Flexibilidad y adaptación a nuevos retos</li>
-			<li>Aprendizaje continuo y mejora constante</li>
-		</ul>
-		<h4>Idiomas</h4>
-		<ul>
-			<li>Español: Nativo</li>
-			<li>Inglés: B2</li>
-		</ul>
-		<h4>Movilidad y disponibilidad</h4>
-		<ul>
-			<li>Carnet de conducir</li>
-			<li>Coche propio</li>
-		</ul>
-	</aside>
-	</div>
+	<!--
 	<footer>
 		© Todos los derechos reservados 2025
 		<div>
-			<img src="img/call_icon.svg" alt="phone icon" class="footer_image">
+			<img src="img/call_icon.svg" alt="phone icon">
 			+34 12 345 67 89	
 		</div>
 		<div>
-			<img src="img/mail_icon.svg" alt="" class="footer_image">
+			<img src="img/mail_icon.svg" alt="">
 			<a href="mailto:ivanvillanueva2899@gmail.com">ivilvilvdev@gmail.com</a>
 		</div>
-
 	</footer>
-	
+	-->
 </body>
 
 
